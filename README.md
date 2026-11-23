@@ -24,16 +24,16 @@ needs, with setup for every client.
 
 | Platform | What it can change (with approval) | Connects with | Platform's own MCP server |
 |---|---|---|---|
-| [Google Ads](https://github.com/sprites-ai/google-ads-mcp-server) | Campaigns, ad groups, RSAs, keywords, budgets, bids, negatives | Google sign-in | Google's, open source, read-only, self-hosted |
-| [Meta Ads](https://github.com/sprites-ai/meta-ads-mcp-server) | Campaigns, ad sets, audiences, ads, budgets, targeting | Facebook Login for Business | Meta's, hosted, Meta only |
-| [LinkedIn Ads](https://github.com/sprites-ai/linkedin-ads-mcp-server) | Campaigns, audiences, company lists, creatives, budgets, bids | LinkedIn sign-in | None for MCP clients (read-only app inside ChatGPT) |
-| [TikTok Ads](https://github.com/sprites-ai/tiktok-ads-mcp-server) | Campaigns, ad groups, ads, budgets, targeting | TikTok for Business sign-in | TikTok for Business, hosted, TikTok only |
-| [Reddit Ads](https://github.com/sprites-ai/reddit-ads-mcp-server) | Campaigns, ad groups, ads, community targeting, budgets | Reddit sign-in | None |
-| [Microsoft Advertising](https://github.com/sprites-ai/microsoft-ads-mcp-server) | Campaigns, ad groups, ads, keywords, negative lists, budgets | Microsoft or Google sign-in | Not compared here |
-| [Apple Ads](https://github.com/sprites-ai/apple-ads-mcp-server) | Budgets, bids, keywords, negatives, campaigns, ad groups | Apple Ads API key | Not compared here |
-| [Google Analytics 4](https://github.com/sprites-ai/google-analytics-mcp-server) | GA4 audiences and ads personalization only | Google sign-in | Google's, open source, read-only, self-hosted |
-| [Google Search Console](https://github.com/sprites-ai/google-search-console-mcp-server) | Nothing in GSC; posts and pages as CMS drafts | Google sign-in | None |
-| [Shopify](https://github.com/sprites-ai/shopify-mcp-server) | Pages, posts, product copy, SEO fields, tags; never prices or stock | Shopify App Store install | Shopify's connector for Claude, plus Storefront MCP |
+| [Google Ads](https://github.com/sprites-mcp/google-ads-mcp-server) | Campaigns, ad groups, RSAs, keywords, budgets, bids, negatives | Google sign-in | Google's, open source, read-only, self-hosted |
+| [Meta Ads](https://github.com/sprites-mcp/meta-ads-mcp-server) | Campaigns, ad sets, audiences, ads, budgets, targeting | Facebook Login for Business | Meta's, hosted, Meta only |
+| [LinkedIn Ads](https://github.com/sprites-mcp/linkedin-ads-mcp-server) | Campaigns, audiences, company lists, creatives, budgets, bids | LinkedIn sign-in | None for MCP clients (read-only app inside ChatGPT) |
+| [TikTok Ads](https://github.com/sprites-mcp/tiktok-ads-mcp-server) | Campaigns, ad groups, ads, budgets, targeting | TikTok for Business sign-in | TikTok for Business, hosted, TikTok only |
+| [Reddit Ads](https://github.com/sprites-mcp/reddit-ads-mcp-server) | Campaigns, ad groups, ads, community targeting, budgets | Reddit sign-in | None |
+| [Microsoft Advertising](https://github.com/sprites-mcp/microsoft-ads-mcp-server) | Campaigns, ad groups, ads, keywords, negative lists, budgets | Microsoft or Google sign-in | Not compared here |
+| [Apple Ads](https://github.com/sprites-mcp/apple-ads-mcp-server) | Budgets, bids, keywords, negatives, campaigns, ad groups | Apple Ads API key | Not compared here |
+| [Google Analytics 4](https://github.com/sprites-mcp/google-analytics-mcp-server) | GA4 audiences and ads personalization only | Google sign-in | Google's, open source, read-only, self-hosted |
+| [Google Search Console](https://github.com/sprites-mcp/google-search-console-mcp-server) | Nothing in GSC; posts and pages as CMS drafts | Google sign-in | None |
+| [Shopify](https://github.com/sprites-mcp/shopify-mcp-server) | Pages, posts, product copy, SEO fields, tags; never prices or stock | Shopify App Store install | Shopify's connector for Claude, plus Storefront MCP |
 
 Every platform also reads its own reporting: spend, results and the entities behind them.
 
@@ -55,8 +55,7 @@ Every platform also reads its own reporting: spend, results and the entities beh
 
 ## Quick start
 
-1. Sign up at [sprites.ai](https://www.sprites.ai) and connect the channels you use. Plans start at $29 a month with a 7-day
-   trial for $1. There is no free plan.
+1. Sign up at [sprites.ai](https://www.sprites.ai) and connect the channels you use. Start a trial from the Sprites site.
 2. Add `https://mcp.sprites.ai/mcp` to your client (below) and sign in.
 3. Ask: "With Sprites, how did my ads do last 30 days across every channel?"
 
@@ -213,8 +212,7 @@ Pinterest, Snapchat, X and Amazon Ads have no connection in Sprites. Sprites can
 Amazon ads in its ads library, but cannot run them.
 
 **How much does it cost?**
-It is part of the Sprites plan: Build is $29 to $99 a month, Launch is $300 to $500 a month, and larger companies
-get a custom plan. Every plan starts with a 7-day trial for $1.
+It is included in every Sprites plan, and every plan starts with a short trial. See sprites.ai for current plans.
 
 ## Maintained by Sprites
 
