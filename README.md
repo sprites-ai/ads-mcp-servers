@@ -26,16 +26,16 @@ needs, with setup for every client.
 
 | Platform | What it can change (with approval) | Connects with | Platform's own MCP server |
 |---|---|---|---|
-| [Google Ads](https://github.com/sprites-mcp/google-ads-mcp-server) | Campaigns, ad groups, RSAs, keywords, budgets, bids, negatives | Google sign-in | Google's, open source, read-only, self-hosted |
-| [Meta Ads](https://github.com/sprites-mcp/meta-ads-mcp-server) | Campaigns, ad sets, audiences, ads, budgets, targeting | Facebook Login for Business | Meta's, hosted, Meta only |
-| [LinkedIn Ads](https://github.com/sprites-mcp/linkedin-ads-mcp-server) | Campaigns, audiences, company lists, creatives, budgets, bids | LinkedIn sign-in | None for MCP clients (read-only app inside ChatGPT) |
-| [TikTok Ads](https://github.com/sprites-mcp/tiktok-ads-mcp-server) | Campaigns, ad groups, ads, budgets, targeting | TikTok for Business sign-in | TikTok for Business, hosted, TikTok only |
-| [Reddit Ads](https://github.com/sprites-mcp/reddit-ads-mcp-server) | Campaigns, ad groups, ads, community targeting, budgets | Reddit sign-in | None |
-| [Microsoft Advertising](https://github.com/sprites-mcp/microsoft-ads-mcp-server) | Campaigns, ad groups, ads, keywords, negative lists, budgets | Microsoft or Google sign-in | Not compared here |
-| [Apple Ads](https://github.com/sprites-mcp/apple-ads-mcp-server) | Budgets, bids, keywords, negatives, campaigns, ad groups | Apple Ads API key | Not compared here |
-| [Google Analytics 4](https://github.com/sprites-mcp/google-analytics-mcp-server) | GA4 audiences and ads personalization only | Google sign-in | Google's, open source, read-only, self-hosted |
-| [Google Search Console](https://github.com/sprites-mcp/google-search-console-mcp-server) | Nothing in GSC; posts and pages as CMS drafts | Google sign-in | None |
-| [Shopify](https://github.com/sprites-mcp/shopify-mcp-server) | Pages, posts, product copy, SEO fields, tags; never prices or stock | Shopify App Store install | Shopify's connector for Claude, plus Storefront MCP |
+| [Google Ads](https://github.com/sprites-ai/google-ads-mcp-server) | Campaigns, ad groups, RSAs, keywords, budgets, bids, negatives | Google sign-in | Google's, open source, read-only, self-hosted |
+| [Meta Ads](https://github.com/sprites-ai/meta-ads-mcp-server) | Campaigns, ad sets, audiences, ads, budgets, targeting | Facebook Login for Business | Meta's, hosted, Meta only |
+| [LinkedIn Ads](https://github.com/sprites-ai/linkedin-ads-mcp-server) | Campaigns, audiences, company lists, creatives, budgets, bids | LinkedIn sign-in | None for MCP clients (read-only app inside ChatGPT) |
+| [TikTok Ads](https://github.com/sprites-ai/tiktok-ads-mcp-server) | Campaigns, ad groups, ads, budgets, targeting | TikTok for Business sign-in | TikTok for Business, hosted, TikTok only |
+| [Reddit Ads](https://github.com/sprites-ai/reddit-ads-mcp-server) | Campaigns, ad groups, ads, community targeting, budgets | Reddit sign-in | None |
+| [Microsoft Advertising](https://github.com/sprites-ai/microsoft-ads-mcp-server) | Campaigns, ad groups, ads, keywords, negative lists, budgets | Microsoft or Google sign-in | Not compared here |
+| [Apple Ads](https://github.com/sprites-ai/apple-ads-mcp-server) | Budgets, bids, keywords, negatives, campaigns, ad groups | Apple Ads API key | Not compared here |
+| [Google Analytics 4](https://github.com/sprites-ai/google-analytics-mcp-server) | GA4 audiences and ads personalization only | Google sign-in | Google's, open source, read-only, self-hosted |
+| [Google Search Console](https://github.com/sprites-ai/google-search-console-mcp-server) | Nothing in GSC; posts and pages as CMS drafts | Google sign-in | None |
+| [Shopify](https://github.com/sprites-ai/shopify-mcp-server) | Pages, posts, product copy, SEO fields, tags; never prices or stock | Shopify App Store install | Shopify's connector for Claude, plus Storefront MCP |
 
 Every platform also reads its own reporting: spend, results and the entities behind them.
 
