@@ -1,5 +1,7 @@
 # Ads MCP Servers
 
+[![Sprites MCP connector](https://glama.ai/mcp/connectors/ai.sprites/ads/badges/score.svg)](https://glama.ai/mcp/connectors/ai.sprites/ads)
+
 One hosted MCP server for Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, Reddit Ads, Microsoft Advertising,
 Apple Ads, GA4, Search Console and Shopify. Use it from Claude, ChatGPT, Cursor, Codex, Gemini and any MCP
 client, with every change approved by you first.
