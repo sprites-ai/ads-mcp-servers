@@ -51,7 +51,7 @@ Every platform also reads its own reporting: spend, results and the entities beh
 - **Approval on every write.** Changes come back as approvals with the before and after. Claude and ChatGPT
   render an editable card; other clients get the change in text with a gate id and apply it through
   `approve_change` only after you confirm.
-- **No credentials on your machine.** No developer tokens, no Meta or LinkedIn developer apps, no Google Cloud
+- **No credentials on your machine.** No Google Cloud project or API access application, no Meta or LinkedIn developer apps, no Google Cloud
   project. Your client holds only a Sprites OAuth token bound to `https://mcp.sprites.ai/mcp`.
 - **Recurring work.** `schedule_task` runs a weekly brief or a daily check inside Sprites, without the chat open.
 
