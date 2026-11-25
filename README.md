@@ -17,6 +17,7 @@ client, with every change approved by you first.
 
 | Date | Change |
 |---|---|
+| 2026-11-25 | Added SEO, AI visibility, competitor research, WordPress, Webflow, Framer, Google Business Profile and PostHog servers |
 | 2026-11-23 | Initial public release of connector docs and configs |
 
 ## The servers
@@ -38,6 +39,22 @@ needs, with setup for every client.
 | [Shopify](https://github.com/sprites-ai/shopify-mcp-server) | Pages, posts, product copy, SEO fields, tags; never prices or stock | Shopify App Store install | Shopify's connector for Claude, plus Storefront MCP |
 
 Every platform also reads its own reporting: spend, results and the entities behind them.
+
+## Beyond ads: SEO, AI visibility, competitor research and your site
+
+The same endpoint also covers the rest of the marketing stack. Each repository documents what that part reads,
+what it can change and what it needs.
+
+| Area | What it does |
+|---|---|
+| [SEO](https://github.com/sprites-ai/seo-mcp-server) | Keyword research, Search Console, posts drafted in your CMS, page edits as a diff |
+| [AI visibility (AEO / GEO)](https://github.com/sprites-ai/ai-visibility-mcp-server) | Who ChatGPT, Perplexity, Gemini and AI Overviews cite for your prompts, then answer pages, comparison pages and llms.txt |
+| [Competitor research](https://github.com/sprites-ai/competitor-research-mcp-server) | Rivals' live ads from the Meta Ad Library and Google's Ads Transparency Center, their keywords, backlinks and AI citations |
+| [WordPress](https://github.com/sprites-ai/wordpress-mcp-server) | Researched posts, page edits, Yoast and Rank Math fields, as drafts you approve |
+| [Webflow](https://github.com/sprites-ai/webflow-mcp-server) | Researched CMS posts, page metadata and copy edits |
+| [Framer](https://github.com/sprites-ai/framer-mcp-server) | Researched posts and SEO fields in your Framer CMS |
+| [Google Business Profile](https://github.com/sprites-ai/google-business-profile-mcp-server) | Per-location performance, missing listing fields and posts |
+| [PostHog](https://github.com/sprites-ai/posthog-mcp-server) | Funnels, retention and trends by campaign, read-only, beside the ad spend |
 
 ## One connector, not ten
 
